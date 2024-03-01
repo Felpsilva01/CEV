@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.index {
+    background-image: radial-gradient(circle, #19E5A7, #2E3C38);
+    background-attachment: fixed;
+}

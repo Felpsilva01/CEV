@@ -1,0 +1,5 @@
+.imagem-redonda {
+    width: 200px; /* Ajuste a largura conforme necessário */
+    height: 200px; /* Ajuste a altura conforme necessário */
+    border-radius: 50%;
+}

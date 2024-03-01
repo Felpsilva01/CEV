@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(89, 89, 89);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+h1 {
+    padding: 25px;
+    color: rgb(180, 53, 53);
+}
+h2 {
+    padding: 0px 50px;
+    color: rgb(89, 89, 89);
+}
+p{
+    padding: 25px 75px;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 30px;
+    color: white;
+}

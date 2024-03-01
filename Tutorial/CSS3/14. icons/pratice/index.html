@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    ul {
+      list-style: none; /* Remove os marcadores padrão */
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+      padding-left: 20px; /* Espaço para o marcador */
+      position: relative; /* Necessário para posicionar o marcador */
+    }
+
+    li::before {
+      content: "\2022"; /* Código Unicode para um bullet */
+      color: red; /* Cor do marcador */
+      font-size: 20px; /* Tamanho do marcador */
+      position: absolute; /* Posiciona o marcador em relação ao conteúdo do <li> */
+      left: 0; /* Alinha o marcador à esquerda do conteúdo do <li> */
+    }
+  </style>
+  <title>Lista com Cores</title>
+</head>
+<body>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+* {
+    background-color: rgb(26, 25, 25);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteudo{
+    background-color: black;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+.conteudo__principal {
+    margin: auto;
+    min-width: 300px;
+    max-width: 1100px;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+.titulo {
+    text-align: center;
+    font-size: 36px;
+    margin: 24px;
+    padding: 16px;
+}
+a {
+    padding: 6px 6px 6px 6px;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
