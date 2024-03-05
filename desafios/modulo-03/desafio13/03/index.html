@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabelas</title>
+</head>
+<body>
+    <table>
+        <caption>Notas e Médias</caption>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">ÁREA</th>
+                <th scope="col" rowspan="2">DISCIPLINAS</th>
+                <th scope="colgroup" colspan="2">NOTAS</th>
+                <th scope="col" rowspan="2">MÉDIA</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>2.5</td>
+                <td>7.5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>3</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>7</td>
+                <td>7.5</td>
+                <td>7.25</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>10</td>
+                <td>9</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <th scope="row" class="media" colspan="4">Média de Exatas</th>
+                <th scope="col" class="media__numero">6.5</th>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>8.5</td>
+                <td>7.5</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>8</td>
+                <td>10</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <th scope="row" class="media" colspan="4">Média de Humanas</th>
+                <th scope="col" class="media__numero">8.5</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

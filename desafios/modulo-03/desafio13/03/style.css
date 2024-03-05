@@ -1,0 +1,53 @@
+:root {
+    --cor00: #F2F2F2;
+    --cor01: #BFBFBF;
+    --cor02: #8C8888;
+    --cor03: #585859;
+    --cor04: #0D0D0D;
+}
+
+
+body {
+    background-color: var(--cor00);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.476);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+caption {
+    background-color: var(--cor03);
+    color: var(--cor01);
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+thead > tr > th {
+    color: var(--cor00);
+    background-color: var(--cor02);
+}
+
+td, th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.media, .media__numero {
+    background-color: var(--cor03);
+    color: var(--cor00);
+    text-align: left;
+}
+
+.media__numero {
+    text-align: center;
+}
