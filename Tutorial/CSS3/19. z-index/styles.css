@@ -1,0 +1,32 @@
+body {
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.box {
+width: 100px;
+height: 100px;
+margin: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+border: 2px solid #333;
+}
+
+.box1 {
+background-color: red;
+position: absolute;
+z-index: 1;
+}
+
+.box2 {
+background-color: green;
+z-index: 2;
+}
+
+.box3 {
+background-color: blue;
+z-index: 3;
+}
